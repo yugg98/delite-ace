@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div>
       <header className="absolute inset-x-0 top-0 z-50 max-w-7xl mx-auto">
-        <navn
+        <nav
           className="flex items-center justify-between py-4"
           aria-label="Global"
         >
@@ -57,7 +57,7 @@ const Header = () => {
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
-        </navn>
+        </nav>
         <Dialog
           as="div"
           className="lg:hidden"
