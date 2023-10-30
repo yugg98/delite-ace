@@ -5,7 +5,7 @@ const Features = () => {
     <div>
       <div className="mx-auto max-w-3xl text-center">
         <h1 className="text-3xl  tracking-tight text-white sm:text-4xl">
-          Deploy to the cloud with confidence
+          Our Features
         </h1>
         <p className="mt-6  text-gray-200">
           Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
@@ -19,7 +19,7 @@ const Features = () => {
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+                src="/feature1.svg"
                 alt="Features Image"
                 className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
               />
@@ -44,7 +44,7 @@ const Features = () => {
         </div>
         <div className="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 ">
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
-          <div className="max-w-[720px]">
+            <div className="max-w-[720px]">
               <h3 className="mb-4 mt-6 text-2xl text-white  md:text-3xl">
                 Never miss any payment
               </h3>
@@ -62,7 +62,7 @@ const Features = () => {
             </div>
             <div>
               <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a275_Rectangle%2093.png"
+                src="/feature2.svg"
                 alt="Features Image"
                 className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
               />

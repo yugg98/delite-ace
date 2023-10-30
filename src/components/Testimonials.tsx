@@ -151,11 +151,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="mx-auto mt-20 flex flex-col items-center">
-            <a href="#" className="font-semibold text-black">
-              Check all reviews
-            </a>
-          </div>
+         
         </div>
       </section>
     </div>

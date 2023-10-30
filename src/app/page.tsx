@@ -1,115 +1,214 @@
-"use client"
-import Link from 'next/link'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import Products from '@/components/Product';
-import Features from '@/components/Features';
-import Testimonials from '@/components/Testimonials';
+"use client";
+import Link from "next/link";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import Products from "@/components/Product";
+import Features from "@/components/Features";
+import Testimonials from "@/components/Testimonials";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import "swiper/css";
 
-
-
-
-function classNames(...classes:any) {
-  return classes.filter(Boolean).join(' ')
+function classNames(...classes: any) {
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Example() {
-
   return (
     <div className="">
-      {/* Header */}
-    
-
       <main className="isolate">
         {/* Hero section */}
         <div className="relative pt-14">
-          <div
-            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-            aria-hidden="true"
+          <svg
+            width="583"
+            height="593"
+            viewBox="0 0 583 593"
+            fill="none"
+            className="absolute max-w-full right-0 top-0"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <div
-              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-              style={{
-                clipPath:
-                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-              }}
-            />
-          </div>
+            <g filter="url(#filter0_f_116_1466)">
+              <ellipse
+                cx="215.642"
+                cy="237.754"
+                rx="215.642"
+                ry="237.754"
+                transform="matrix(-0.123619 0.99233 -0.990615 -0.136684 768.36 -74.0059)"
+                fill="url(#paint0_linear_116_1466)"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_116_1466"
+                x="0.873535"
+                y="-377.246"
+                width="1010.61"
+                height="969.461"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="134.13"
+                  result="effect1_foregroundBlur_116_1466"
+                />
+              </filter>
+              <linearGradient
+                id="paint0_linear_116_1466"
+                x1="506.33"
+                y1="764.767"
+                x2="218.152"
+                y2="-153.791"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#3A102F" stop-opacity="0" />
+                <stop offset="1" stop-color="#445BE9" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <svg
+            className="bottom-0 absolute max-w-full"
+            width="474"
+            height="924"
+            viewBox="0 0 474 924"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_f_116_1465)">
+              <ellipse
+                cx="193.013"
+                cy="200.39"
+                rx="193.013"
+                ry="200.39"
+                transform="matrix(-0.123619 0.99233 -0.990615 -0.136684 227.74 297.78)"
+                fill="url(#paint0_linear_116_1465)"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_116_1465"
+                x="-462.847"
+                y="0.157715"
+                width="936.436"
+                height="923.531"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="134.13"
+                  result="effect1_foregroundBlur_116_1465"
+                />
+              </filter>
+              <linearGradient
+                id="paint0_linear_116_1465"
+                x1="453.198"
+                y1="644.583"
+                x2="222.132"
+                y2="-137.561"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#3A102F" stop-opacity="0" />
+                <stop offset="1" stop-color="#445BE9" />
+              </linearGradient>
+            </defs>
+          </svg>
+
           <div className="py-24 sm:py-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-3xl text-center">
-                <h1 className="text-4xl  tracking-tight text-white sm:text-6xl">
-                  Deploy to the cloud with confidence
+                <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-6xl">
+                  Welcome to Our Digital Signage Universe!
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-200">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua.
+                <p className="mt-6 text-lg max-w-2xl mx-auto leading-8 text-gray-200">
+                  Transform your space with our state-of-the-art digital signage
+                  solutions. Elevate communication, captivate audiences, and
+                  deliver messages with impact.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <Link
                     href="#"
-                    className="rounded-full bg-white px-6 py-2.5  font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-full cursor-pointer bg-white px-10 py-2.5 text-lg  font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Get started
                   </Link>
-                 
                 </div>
               </div>
-             
             </div>
           </div>
           <div className=" flow-root sm:mb-24">
-                <Swiper
-                 spaceBetween={20}
-                 slidesPerView={5}
-                 navigation
-                 pagination={{ clickable: true }}
-                 autoplay={{
-                  delay: 500,
-                  disableOnInteraction: false
+            <Swiper
+              modules={[Navigation, Autoplay, A11y]}
+              spaceBetween={50}
+              slidesPerView={1}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 2,
+                  spaceBetween: 40,
+                },
+                1280: {
+                  slidesPerView: 5,
+                  spaceBetween: 30,
+                },
               }}
-                 onSwiper={(swiper) => console.log(swiper)}
-                 onSlideChange={() => console.log('slide change')}
-                >
-                  <SwiperSlide>
-                    <img src="/img1.png"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img src="/img1.png"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img src="/img1.png"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img src="/img1.png"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img src="/img1.png"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img src="/img2.png"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img src="/img1.png"/>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img src="/img1.png"/>
-                  </SwiperSlide>
-                </Swiper>
-              </div>
-          <div
-            className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-            aria-hidden="true"
-          >
-            <div
-              className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-              style={{
-                clipPath:
-                  'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+              loop={true}
+              autoplay={{
+                delay: 1000,
+                disableOnInteraction: false,
               }}
-            />
+            >
+              <SwiperSlide>
+                <img src="/img1.png" className="w-xl rounded-lg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/img1.png" className="w-xl rounded-lg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/img1.png" className="w-x rounded-lg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/img1.png" className="w-x rounded-lg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/img1.png" className="w-x rounded-lg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/img2.png" className="w-x rounded-lg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/img1.png" className="w-x rounded-lg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/img1.png" className="w-x rounded-lg" />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
 
@@ -152,15 +251,12 @@ export default function Example() {
               height={48}
             />
           </div>
-          
         </div>
 
-          <Products/>
-          <Features/>
-          <Testimonials/>
+        <Products />
+        <Features />
+        <Testimonials />
       </main>
-
-  
     </div>
-  )
+  );
 }

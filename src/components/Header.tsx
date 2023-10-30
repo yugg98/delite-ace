@@ -3,23 +3,33 @@ import React from "react";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "Products", href: "/products" },
+  { name: "About us", href: "/aboutus" },
+  { name: "Testimonials", href: "#testimonials" },
 ];
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div>
-      <header className="absolute inset-x-0 top-0 z-50 max-w-7xl mx-auto">
+      <header className="absolute inset-x-0 top-0 z-50 px-8 mx-auto">
         <nav
           className="flex items-center justify-between py-4"
           aria-label="Global"
         >
+           <div className="flex flex-1 ">
+            <a href="#" className="">
+              <span className="sr-only">Your Company</span>
+              <img
+                className="h-8 w-auto"
+                src="/logo.svg"
+                alt=""
+              />
+            </a>
           <div className="flex lg:hidden">
             <button
               type="button"
@@ -30,32 +40,28 @@ const Header = () => {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12 mx-12">
+         
+          </div>
+          <div className="hidden lg:flex lg:gap-x-12 ">
             {navigation.map((item) => (
-              <a
+              <Link
                 key={item.name}
                 href={item.href}
                 className="text-sm font-semibold leading-6 text-white"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
-          <div className="flex flex-1 mx-auto items-center justify-center ">
-            <a href="#" className="">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
-            </a>
-          </div>
+         
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
+          <Link
+                    href="#"
+                    className="rounded-full bg-white px-6 py-2.5  font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Get started
+                  </Link>
           </div>
         </nav>
         <Dialog

@@ -92,10 +92,7 @@ export default function Contactus() {
                   />
                 </dt>
                 <dd>
-                  <a
-                    className="text-white"
-                    href="tel:+1 (555) 234-5678"
-                  >
+                  <a className="text-white" href="tel:+1 (555) 234-5678">
                     +91 99104 55478
                   </a>
                 </dd>
@@ -109,10 +106,7 @@ export default function Contactus() {
                   />
                 </dt>
                 <dd>
-                  <a
-                    className="text-white"
-                    href="mailto:hello@example.com"
-                  >
+                  <a className="text-white" href="mailto:hello@example.com">
                     contact@kaaresaccounting.com
                   </a>
                 </dd>
@@ -123,77 +117,111 @@ export default function Contactus() {
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
-                  <div className="mt-2.5">
-                    <Input
-                      type="text"
-                      variant={"underlined"}
-                      name="firstname"
-                      id="firstname"
-                      className="bg-transparent"
-                      onChange={handleChange}
-                      value={data.firstname}
-                      label="First Name"
-                      autoComplete="given-name"
-                    />
-                  </div>
+                <div>
+                      <label
+                        htmlFor="email"
+                        className="block text-sm font-medium leading-6 text-white"
+                      >
+                        Name
+                      </label>
+                      <div className="mt-2">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          value={data.firstname}
+                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          placeholder="Yug Gupta"
+                        />
+                      </div>
+                    </div>
                 </div>
                 <div>
-                  <div className="mt-2.5">
-                    <Input
-                      variant={"underlined"}
-                      type="text"
-                      name="lastname"
-                      id="last-name"
-                      onChange={handleChange}
-                      value={data.lastname}
-                      label="Last Name"
-                      autoComplete="family-name"
-                    />
-                  </div>
+                <div>
+                      <label
+                        htmlFor="email"
+                        className="block text-sm font-medium leading-6 text-white"
+                      >
+                        Name
+                      </label>
+                      <div className="mt-2">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          value={data.firstname}
+                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          placeholder="Yug Gupta"
+                        />
+                      </div>
+                    </div>
                 </div>
                 <div className="sm:col-span-2">
-                  <div className="mt-2.5">
-                    <Input
-                      variant={"underlined"}
-                      type="email"
-                      name="email"
-                      id="email"
-                      onChange={handleChange}
-                      value={data.email}
-                      label="Email"
-                      autoComplete="email"
-                    />
-                  </div>
+                <div>
+                      <label
+                        htmlFor="email"
+                        className="block text-sm font-medium leading-6 text-white"
+                      >
+                        Name
+                      </label>
+                      <div className="mt-2">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          value={data.firstname}
+                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          placeholder="Yug Gupta"
+                        />
+                      </div>
+                    </div>
                 </div>
                 <div className="sm:col-span-2">
-                  <div className="mt-2.5">
-                    <Input
-                      variant={"underlined"}
-                      type="tel"
-                      name="phonenumber"
-                      id="phone-number"
-                      onChange={handleChange}
-                      value={data.phonenumber}
-                      label="Phone Number"
-                      autoComplete="tel"
-                    />
-                  </div>
+                <div>
+                      <label
+                        htmlFor="email"
+                        className="block text-sm font-medium leading-6 text-white"
+                      >
+                        Name
+                      </label>
+                      <div className="mt-2">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          value={data.firstname}
+                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          placeholder="Yug Gupta"
+                        />
+                      </div>
+                    </div>
                 </div>
                 <div className="sm:col-span-2">
-                  <div className="mt-2.5">
-                    <Textarea
-                      name="message"
-                      id="message"
-                      label="Message"
-                      rows={4}
-                      variant="underlined"
-                      defaultValue={""}
-                    />
-                  </div>
+                <div>
+                      <label
+                        htmlFor="email"
+                        className="block text-sm font-medium leading-6 text-white"
+                      >
+                        Name
+                      </label>
+                      <div className="mt-2">
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          value={data.firstname}
+                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          placeholder="Yug Gupta"
+                        />
+                      </div>
+                    </div>
                 </div>
               </div>
               <div className="mt-8 flex justify-end">
-                <button type="submit" className="rounded-full cursor-pointer max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 ">
+                <button
+                  type="submit"
+                  className="rounded-full cursor-pointer max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 "
+                >
                   Send Message
                 </button>
               </div>
