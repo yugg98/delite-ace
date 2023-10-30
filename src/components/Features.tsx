@@ -3,6 +3,7 @@ import React from "react";
 const Features = () => {
   return (
     <div>
+      <div className="gr-1 absolute" />
       <div className="mx-auto max-w-3xl text-center">
         <h1 className="text-3xl  tracking-tight text-white sm:text-4xl">
           Our Features
@@ -13,7 +14,7 @@ const Features = () => {
           aliqua.
         </p>
       </div>
-
+      <div className="gr-2 absolute right-0 " />
       <section className="mt-4">
         <div className="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 ">
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
@@ -42,6 +43,8 @@ const Features = () => {
             </div>
           </div>
         </div>
+        <div className="gr-2 absolute left-0   " />
+
         <div className="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 ">
           <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div className="max-w-[720px]">

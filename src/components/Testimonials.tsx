@@ -14,6 +14,8 @@ const Testimonials = () => {
               aliquam,purus sit amet luctus magna fringilla urna
             </p>
           </div>
+          <div className="gr-1 absolute" />
+          <div className="gr-1 right-0 absolute" />
           <div className="grid grid-cols-1 gap-8 sm:gap-20 lg:grid-cols-2">
             <img
               src="https://uploads-ssl.webflow.com/6458c625291a94a195e6cf3a/6458c625291a94090ae6cf95_Rectangle%2035.png"

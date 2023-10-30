@@ -2,7 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
- background: #0A1021;
+  background: #0a1021;
+}
+
+.gr-1 {
+  width: 406.35px;
+  height: 403.313px;
+  transform: rotate(97.113deg);
+  flex-shrink: 0;
+  border-radius: 406.35px;
+  background: linear-gradient(
+    344deg,
+    rgba(58, 16, 47, 0) -51.21%,
+    #445be9 113.97%
+  );
+  z-index: -1;
+  filter: blur(134.129638671875px);
+}
+.gr-2 {
+  width: 406.35px;
+  height: 403.313px;
+  transform: rotate(97.113deg);
+  flex-shrink: 0;
+  border-radius: 406.35px;
+  background: linear-gradient(
+    344deg,
+    rgba(58, 16, 47, 0) -51.21%,
+    #445be9 113.97%
+  );
+  z-index: -1;
+  filter: blur(134.129638671875px);
 }
