@@ -75,31 +75,31 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-white">
-      <div className="mx-auto max-w-7xl flex justify-between overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+      <div className="mx-auto max-w-7xl md:flex justify-between overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
        <div>
-        <img src="/foologo.svg"/>
+        <img src="/foologo.svg" className="md:m-0 mx-auto"/>
        </div>
         <div>
           <nav
-            className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+            className="-mb-6 columns-2 md:flex md:flex-row flex-col  sm:mt-0 mt-10 sm:justify-center sm:space-x-12"
             aria-label="Footer"
           >
             {navigation.main.map((item) => (
-              <div key={item.name} className="pb-6">
+              <div key={item.name} className="pb-6 flex justify-center mx-auto">
                 <a
                   href={item.href}
-                  className="text-sm leading-6 text-gray-900 hover:text-gray-900"
+                  className="text-sm  leading-6 text-gray-900 hover:text-gray-900"
                 >
                   {item.name}
                 </a>
               </div>
             ))}
           </nav>
-          <p className=" text-center mt-2 text-xs leading-5 text-gray-500">
+          <p className=" text-center mt-4 text-xs leading-5 text-gray-500">
             &copy; 2020 Your Company, Inc. All rights reserved.
           </p>
         </div>
-        <div className=" flex justify-center space-x-10">
+        <div className=" flex justify-center space-x-10 mt-6">
           {navigation.social.map((item) => (
             <a
               key={item.name}
