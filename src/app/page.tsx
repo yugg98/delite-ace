@@ -155,7 +155,7 @@ export default function Example() {
               </div>
             </div>
           </div>
-          <div className=" flow-root sm:mb-24">
+          <div className=" flow-root mb-24">
             <Swiper
               modules={[Navigation, Autoplay, A11y]}
               spaceBetween={50}
@@ -185,28 +185,28 @@ export default function Example() {
               }}
             >
               <SwiperSlide>
-                <img src="/img1.png" className="w-xl rounded-lg" />
+                <img src="/img1.png" className="w-xl mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-xl rounded-lg" />
+                <img src="/img1.png" className="w-xl mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x rounded-lg" />
+                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x rounded-lg" />
+                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x rounded-lg" />
+                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img2.png" className="w-x rounded-lg" />
+                <img src="/img2.png" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x rounded-lg" />
+                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x rounded-lg" />
+                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
             </Swiper>
           </div>
