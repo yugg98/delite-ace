@@ -50,8 +50,8 @@ const Header = () => {
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Link
-              href="#"
-              className="rounded-full bg-white px-6 py-2.5  font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              href="/contactus"
+              className="rounded-full sz-40 bg-white px-6 py-2.5  font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Get started
             </Link>

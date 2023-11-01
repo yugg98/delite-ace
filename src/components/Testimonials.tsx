@@ -6,13 +6,14 @@ const Testimonials = () => {
       <section>
         <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
           <div className="mx-auto mb-8 max-w-3xl text-center md:mb-12 lg:mb-16">
-            <h2 className="mb-4 mt-6 text-3xl text-white md:text-5xl">
-              What our clients are saying
-            </h2>
-            <p className="mx-auto mt-4 max-w-[528px] text-white">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-              aliquam,purus sit amet luctus magna fringilla urna
-            </p>
+          <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
+                 What Our Client&apos;s say
+                </h1>
+                <p className="mt-6  max-w-2xl mx-auto  text-gray-200">
+                  Transform your space with our state-of-the-art digital signage
+                  solutions. Elevate communication, captivate audiences, and
+                  deliver messages with impact.
+                </p>
           </div>
           <div className="gr-1 absolute" />
           <div className="gr-1 right-0 absolute" />

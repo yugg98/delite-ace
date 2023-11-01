@@ -15,6 +15,7 @@ import {
 } from "swiper/modules";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
+import Cta from "@/components/Cta";
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
@@ -256,6 +257,7 @@ export default function Example() {
         <Products />
         <Features />
         <Testimonials />
+        <Cta/>
       </main>
     </div>
   );

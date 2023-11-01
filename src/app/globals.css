@@ -7,11 +7,11 @@ body {
 }
 
 .gr-1 {
-  width: 406.35px;
-  height: 403.313px;
-  transform: rotate(97.113deg);
+  width: 406px;
+  height: 403px;
+  transform: rotate(97deg);
   flex-shrink: 0;
-  border-radius: 406.35px;
+  border-radius: 406px;
   background: linear-gradient(
     344deg,
     rgba(58, 16, 47, 0) -51.21%,
@@ -20,7 +20,7 @@ body {
   z-index: -1;
   max-width: 100%;
 
-  filter: blur(134.129638671875px);
+  filter: blur(134px);
 }
 .gr-2 {
   width: 406.35px;
@@ -35,5 +35,5 @@ body {
   );
   z-index: -1;
   max-width: 100%;
-  filter: blur(134.129638671875px);
+  filter: blur(134px);
 }

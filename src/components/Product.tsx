@@ -86,14 +86,14 @@ export default function Products() {
     <div className="gr-1 absolute" />
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-6xl">
-           Our Products
-          </h1>
-          <p className="mt-6  text-gray-200">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
-          </p>
+        <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
+                 Products
+                </h1>
+                <p className="mt-6  max-w-2xl mx-auto  text-gray-200">
+                  Transform your space with our state-of-the-art digital signage
+                  solutions. Elevate communication, captivate audiences, and
+                  deliver messages with impact.
+                </p>
         </div>
         <div className="grid mt-24 grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {products.map((product) => (

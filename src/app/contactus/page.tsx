@@ -20,6 +20,7 @@ export default function Contactus() {
     email: "",
     lastname: "",
     phonenumber: "",
+    message: "",
   });
 
   const handleChange = (e: any) => {
@@ -48,6 +49,7 @@ export default function Contactus() {
           email: "",
           lastname: "",
           phonenumber: "",
+          message:""
         });
         router.push("/");
       } catch (error) {
@@ -117,110 +119,108 @@ export default function Contactus() {
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
-                <div>
-                      <label
-                        htmlFor="email"
-                        className="block text-sm font-medium leading-6 text-white"
-                      >
-                        Name
-                      </label>
-                      <div className="mt-2">
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          value={data.firstname}
-                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                          placeholder="Yug Gupta"
-                        />
-                      </div>
+            <div className="gr-1 absolute" />
+                
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium leading-6 text-white"
+                    >
+                      First Name
+                    </label>
+                    <div className="mt-2">
+                      <input
+                        type="text"
+                        name="firstname"
+                        value={data.firstname}
+                        className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        placeholder="Yug"
+                      />
                     </div>
+                  </div>
                 </div>
                 <div>
-                <div>
-                      <label
-                        htmlFor="email"
-                        className="block text-sm font-medium leading-6 text-white"
-                      >
-                        Name
-                      </label>
-                      <div className="mt-2">
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          value={data.firstname}
-                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                          placeholder="Yug Gupta"
-                        />
-                      </div>
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium leading-6 text-white"
+                    >
+                      Last Name
+                    </label>
+                    <div className="mt-2">
+                      <input
+                        type="text"
+                        name="lastname"
+                        value={data.lastname}
+                        className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        placeholder="Gupta"
+                      />
                     </div>
-                </div>
-                <div className="sm:col-span-2">
-                <div>
-                      <label
-                        htmlFor="email"
-                        className="block text-sm font-medium leading-6 text-white"
-                      >
-                        Name
-                      </label>
-                      <div className="mt-2">
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          value={data.firstname}
-                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                          placeholder="Yug Gupta"
-                        />
-                      </div>
-                    </div>
+                  </div>
                 </div>
                 <div className="sm:col-span-2">
-                <div>
-                      <label
-                        htmlFor="email"
-                        className="block text-sm font-medium leading-6 text-white"
-                      >
-                        Name
-                      </label>
-                      <div className="mt-2">
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          value={data.firstname}
-                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                          placeholder="Yug Gupta"
-                        />
-                      </div>
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium leading-6 text-white"
+                    >
+                      Email
+                    </label>
+                    <div className="mt-2">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        value={data.email}
+                        className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        placeholder="name@company.com"
+                      />
                     </div>
+                  </div>
                 </div>
                 <div className="sm:col-span-2">
-                <div>
-                      <label
-                        htmlFor="email"
-                        className="block text-sm font-medium leading-6 text-white"
-                      >
-                        Name
-                      </label>
-                      <div className="mt-2">
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          value={data.firstname}
-                          className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                          placeholder="Yug Gupta"
-                        />
-                      </div>
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium leading-6 text-white"
+                    >
+                      Phonenumber
+                    </label>
+                    <div className="mt-2">
+                      <input
+                        type="phonenumber"
+                        name="phonenumber"
+                        value={data.phonenumber}
+                        className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        placeholder="+919999999999"
+                      />
                     </div>
+                  </div>
+                </div>
+                <div className="sm:col-span-2">
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium leading-6 text-white"
+                    >
+                      Message
+                    </label>
+                    <div className="mt-2">
+                      <textarea
+                        name="message"
+                        id="email"
+                        value={data.firstname}
+                        className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        placeholder="Your Message here"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="mt-8 flex justify-end">
                 <button
                   type="submit"
-                  className="rounded-full cursor-pointer max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 "
+                  className="rounded-full cursor-pointer bg-white px-6 text-sm py-2.5   font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Send Message
                 </button>

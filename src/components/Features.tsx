@@ -1,17 +1,18 @@
 import React from "react";
+import Button from "./Button";
 
 const Features = () => {
   return (
     <div>
       <div className="gr-1 absolute" />
       <div className="mx-auto max-w-3xl text-center">
-        <h1 className="text-3xl  tracking-tight text-white sm:text-4xl">
+        <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
           Our Features
         </h1>
-        <p className="mt-6  text-gray-200">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-          cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
-          aliqua.
+        <p className="mt-6  max-w-2xl mx-auto  text-gray-200">
+          Transform your space with our state-of-the-art digital signage
+          solutions. Elevate communication, captivate audiences, and deliver
+          messages with impact.
         </p>
       </div>
       <div className="gr-2 absolute right-0 " />
@@ -34,12 +35,7 @@ const Features = () => {
                 payment platform makes it simple for businesses and individuals
                 to send and receive payments quickly and securely.
               </p>
-              <a
-                href="#"
-                className="inline-block bg-blue    px-5 py-3 text-center font-bold text-white transition  "
-              >
-                Learn More
-              </a>
+              <Button title="Learn More"/>
             </div>
           </div>
         </div>
@@ -56,12 +52,7 @@ const Features = () => {
                 payment platform makes it simple for businesses and individuals
                 to send and receive payments quickly and securely.
               </p>
-              <a
-                href="#"
-                className="inline-block bg-blue    px-5 py-3 text-center font-bold text-white transition  "
-              >
-                Learn More
-              </a>
+              <Button title="Learn More"/>
             </div>
             <div>
               <img
