@@ -3,7 +3,7 @@ import Faqs from "@/components/Faqs";
 
 export default function Page() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <main>
         <svg
           width="583"

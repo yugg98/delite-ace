@@ -4,14 +4,12 @@
 
 body {
   background: #0a1021;
-  overflow-x:hidden;
 }
 
 .gr-1 {
-  width: 406px;
-  height: 403px;
+  position: absolute;
+  right: 0;
   transform: rotate(97deg);
-  flex-shrink: 0;
   border-radius: 406px;
   background: linear-gradient(
     344deg,
@@ -20,12 +18,14 @@ body {
   );
   z-index: -1;
   max-width: 100%;
-
+  width: 406px;
+  height: 403px;
   filter: blur(134px);
 }
 .gr-2 {
   width: 406.35px;
   height: 403.313px;
+  position: absolute;
   transform: rotate(97.113deg);
   flex-shrink: 0;
   border-radius: 406.35px;
@@ -37,4 +37,36 @@ body {
   z-index: -1;
   max-width: 100%;
   filter: blur(134px);
+}
+
+@media only screen and (max-width: 600px) {
+  .gr-1 {
+    position: absolute;
+    left: 0;
+    transform: rotate(97deg);
+    border-radius: 406px;
+    background: linear-gradient(
+      344deg,
+      rgba(58, 16, 47, 0) -51.21%,
+      #445be9 113.97%
+    );
+    z-index: -1;
+    width: 406px;
+    height: 403px;
+    width: 100%;
+    filter: blur(134px);
+  }
+  .gr-2 {
+    position: absolute;
+    transform: rotate(97deg);
+    flex-shrink: 0;
+    border-radius: 406px;
+    background: linear-gradient(
+      344deg,
+      rgba(58, 16, 47, 0) -51.21%,
+      #445be9 113.97%
+    );
+    z-index: -1;
+    filter: blur(134px);
+  }
 }
