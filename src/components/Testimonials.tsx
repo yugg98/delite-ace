@@ -2,21 +2,21 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div id="testimonials">
       <section>
         <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
           <div className="mx-auto mb-8 max-w-3xl text-center md:mb-12 lg:mb-16">
             <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
               What Our Client&apos;s say
             </h1>
+          <div className="gr-1 left-0 absolute max-w-full" />
             <p className="mt-6  max-w-2xl mx-auto  text-gray-200">
               Transform your space with our state-of-the-art digital signage
               solutions. Elevate communication, captivate audiences, and deliver
               messages with impact.
             </p>
-          </div>
-          <img src="/o.svg" className="max-w-full absolute" />
-          <img src="/o2.svg" className="max-w-full absolute" />
+          </div>   
+          <div className="gr-1  max-w-full absolute" />
           <div className="grid grid-cols-1 gap-8 sm:gap-20 lg:grid-cols-2">
             <img
               src="https://uploads-ssl.webflow.com/6458c625291a94a195e6cf3a/6458c625291a94090ae6cf95_Rectangle%2035.png"

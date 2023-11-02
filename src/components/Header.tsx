@@ -9,7 +9,7 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "Products", href: "/products" },
   { name: "About us", href: "/aboutus" },
-  { name: "Testimonials", href: "#testimonials" },
+  { name: "Testimonials", href: "/#testimonials" },
 ];
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -85,6 +85,8 @@ export default function Products() {
     
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
+        <div className="gr-1 absolute left-[40%]" />
+
           <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
             Our Products
           </h1>

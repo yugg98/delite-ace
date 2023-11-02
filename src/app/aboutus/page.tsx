@@ -119,7 +119,10 @@ export default function Page() {
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-6xl">
                     Welcome to Our Digital Signage Universe!
+                  <div className="gr-1 absolute left-0 " />
                   </h1>
+                  <div className="gr-1 absolute " />
+
                   <p className="mt-6 text-lg max-w-2xl mx-auto leading-8 text-gray-200">
                     Transform your space with our state-of-the-art digital
                     signage solutions. Elevate communication, captivate
@@ -144,7 +147,8 @@ export default function Page() {
                   <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
                     Elevating Visual Narratives: The Delite Ace Story
                   </h1>
-                  <div className="gr-1 absolute" />
+                  <div className="gr-1 absolute left-0 " />
+
 
                   <p className="mt-4 text-base leading-8 text-white">
                     Delite Ace began as a humble team with a grand vision: to

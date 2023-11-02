@@ -79,7 +79,7 @@ export default function Example() {
             </defs>
           </svg>
           <svg
-            className="bottom-0 absolute max-w-full"
+            className=" left-0 absolute max-w-full"
             width="474"
             height="924"
             viewBox="0 0 474 924"

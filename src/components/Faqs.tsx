@@ -63,7 +63,6 @@ export default function Faqs() {
             </p>
           </div>
           <div className="mt-10 lg:col-span-7 lg:mt-0">
-
             <dl className="space-y-6">
               {faqs.map((faq) => (
                 <Disclosure
@@ -78,6 +77,8 @@ export default function Faqs() {
                           <span className="text-lg text-white font-medium leading-9">
                             {faq.question}
                           </span>
+                          <div className="gr-2 absolute right-[20%] " />
+
                           <span className="flex items-center ml-6 h-7">
                             {open ? (
                               <ChevronUpIcon

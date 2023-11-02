@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function Cta() {
     return (
       <div className="">
@@ -6,17 +8,14 @@ export default function Cta() {
             <h2 className="mx-auto max-w-3xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Join Us in the Digital Signage Revolution
             </h2>
+            <div className="gr-1 left-[40%] absolute" />
             <p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-300">
             Celebrating a rich history of innovation and excellence, we warmly invite you to explore our journey. Delve into Delite Ace&apos;s world of digital signage solutions and discover the unique ways we can transform your space, communicate your message, and captivate your audience.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
-                className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-              >
-                Get started
-              </a>
+             <Button title="Learn More"/>
             </div>
+            <div className="gr-1 absolute" />
             <svg
               viewBox="0 0 1024 1024"
               className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
