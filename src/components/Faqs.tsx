@@ -63,7 +63,6 @@ export default function Faqs() {
             </p>
           </div>
           <div className="mt-10 lg:col-span-7 lg:mt-0">
-            <img src="/o.svg" className=" absolute max-w-full" />
 
             <dl className="space-y-6">
               {faqs.map((faq) => (

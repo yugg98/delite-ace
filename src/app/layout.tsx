@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={satoshi.className+"dark"}>
-        <div className='overflow-x-hidden'>
+        <div className='overflow-hidden relative'>
         <Header/>
         {children}
         <a
