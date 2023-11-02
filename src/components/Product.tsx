@@ -1,3 +1,5 @@
+import Cta from "./Cta";
+
 /*
   This example requires some changes to your config:
   
@@ -17,7 +19,6 @@ const products = [
     id: 1,
     name: "Focus Paper Refill",
     href: "#",
-    price: "$13",
     description: "3 sizes available",
     imageSrc:
       "/products/p1.svg",
@@ -26,55 +27,53 @@ const products = [
   },
   {
     id: 2,
-    name: "Focus Card Holder",
+    name: "Focus Paper Refill",
     href: "#",
-    price: "$64",
-    description: "Walnut",
+    description: "3 sizes available",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-02.jpg",
-    imageAlt: "Paper card sitting upright in walnut card holder on desk.",
-  },
-  {
-    id: 3,
-    name: "Focus Carry Case",
-    href: "#",
-    price: "$32",
-    description: "Heather Gray",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-03.jpg",
+      "/products/p2.svg",
     imageAlt:
-      "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+      "Person using a pen to cross a task off a productivity paper card.",
   },
   {
-    id: 2,
-    name: "Focus Card Holder",
+    id: 1,
+    name: "Focus Paper Refill",
     href: "#",
-    price: "$64",
-    description: "Walnut",
+    description: "3 sizes available",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-02.jpg",
-    imageAlt: "Paper card sitting upright in walnut card holder on desk.",
-  },
-  {
-    id: 3,
-    name: "Focus Carry Case",
-    href: "#",
-    price: "$32",
-    description: "Heather Gray",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-03.jpg",
+      "/products/p3.svg",
     imageAlt:
-      "Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.",
+      "Person using a pen to cross a task off a productivity paper card.",
   },
   {
-    id: 2,
-    name: "Focus Card Holder",
+    id: 1,
+    name: "Focus Paper Refill",
     href: "#",
-    price: "$64",
-    description: "Walnut",
+    description: "3 sizes available",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-02.jpg",
-    imageAlt: "Paper card sitting upright in walnut card holder on desk.",
+      "/products/p4.svg",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
+  },
+  {
+    id: 1,
+    name: "Focus Paper Refill",
+    href: "#",
+    description: "3 sizes available",
+    imageSrc:
+      "/products/p5.svg",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
+  },
+  {
+    id: 1,
+    name: "Focus Paper Refill",
+    href: "#",
+    description: "3 sizes available",
+    imageSrc:
+      "/products/p6.svg",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
   },
 
   // More products...
@@ -83,7 +82,7 @@ const products = [
 export default function Products() {
   return (
     <div className="">
-      <img src="/o2.svg" className="max-w-full absolute" />
+    
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
@@ -107,7 +106,6 @@ export default function Products() {
               </div>
               <div className="mt-4 flex items-center justify-between text-base font-medium text-white">
                 <h3>{product.name}</h3>
-                <p>{product.price}</p>
               </div>
               <p className="mt-1 text-sm italic text-gray-500">
                 {product.description}
@@ -116,6 +114,7 @@ export default function Products() {
           ))}
         </div>
       </div>
+      <Cta/>
     </div>
   );
 }
