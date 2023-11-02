@@ -7,7 +7,7 @@ export default function Cta() {
             Join Us in the Digital Signage Revolution
             </h2>
             <p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-300">
-            Celebrating a rich history of innovation and excellence, we warmly invite you to explore our journey. Delve into Delite Ace's world of digital signage solutions and discover the unique ways we can transform your space, communicate your message, and captivate your audience.
+            Celebrating a rich history of innovation and excellence, we warmly invite you to explore our journey. Delve into Delite Ace&apos;s world of digital signage solutions and discover the unique ways we can transform your space, communicate your message, and captivate your audience.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

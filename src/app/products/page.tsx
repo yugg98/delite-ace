@@ -18,7 +18,7 @@ const page = () => {
                     Revolutionizing Visual Experiences: <span className="text-indigo-600 "> Our Innovative Product Suite </span>
                     </h1>
                     <p className="relative mt-6 text-lg leading-8 text-gray-100 sm:max-w-md lg:max-w-none">
-                    Embark on a journey of unparalleled visual excellence with Delite Ace's cutting-edge digital signage solutions, meticulously engineered to captivate, communicate, and connect.
+                    Embark on a journey of unparalleled visual excellence with Delite Ace&apos;s cutting-edge digital signage solutions, meticulously engineered to captivate, communicate, and connect.
                     </p>
                     <div className="mt-10 flex items-center gap-x-6">
                       <a
