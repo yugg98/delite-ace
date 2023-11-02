@@ -25,7 +25,6 @@ export default function Example() {
   return (
     <div className="">
       <main className="isolate">
-        {/* Hero section */}
         <div className="relative pt-14">
           <svg
             width="583"
@@ -136,14 +135,12 @@ export default function Example() {
 
           <div className="py-24 sm:py-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <div className="mx-auto max-w-3xl text-center">
+              <div className="mx-auto max-w-3xl  text-center">
                 <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-6xl">
-                  Welcome to Our Digital Signage Universe!
+              Elevating spaces with elite signage.
                 </h1>
-                <p className="mt-6 text-lg max-w-2xl mx-auto leading-8 text-gray-200">
-                  Transform your space with our state-of-the-art digital signage
-                  solutions. Elevate communication, captivate audiences, and
-                  deliver messages with impact.
+                <p className="mt-6 text-lg  mx-auto leading-8 text-gray-200">
+                Delite Ace transforms spaces with unparalleled digital signage, enhancing communication, captivating audiences, and ensuring impactful, visually excellent experiences.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <Link
@@ -186,35 +183,32 @@ export default function Example() {
               }}
             >
               <SwiperSlide>
-                <img src="/img1.png" className="w-xl mx-auto rounded-lg" />
+                <img src="/images/img1.svg" className="w-xl mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-xl mx-auto rounded-lg" />
+                <img src="/images/img2.svg" className="w-xl mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
+                <img src="/images/img3.svg" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
+                <img src="/images/img4.svg" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
+                <img src="/images/img5.svg" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img2.png" className="w-x mx-auto rounded-lg" />
+                <img src="/images/img6.svg" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="/img1.png" className="w-x mx-auto rounded-lg" />
+                <img src="/images/img7.svg" className="w-x mx-auto rounded-lg" />
               </SwiperSlide>
             </Swiper>
           </div>
         </div>
 
         {/* Logo cloud */}
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        {/* <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <img
               className="col-span-2 invert max-h-12 w-full object-contain lg:col-span-1"
@@ -252,7 +246,7 @@ export default function Example() {
               height={48}
             />
           </div>
-        </div>
+        </div> */}
 
         <Products />
         <Features />

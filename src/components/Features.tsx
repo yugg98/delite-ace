@@ -15,55 +15,142 @@ const Features = () => {
           messages with impact.
         </p>
       </div>
-      <div className="gr-2 absolute right-0 " />
-      <section className="mt-4">
-        <div className="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 ">
-          <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
-            <div>
-              <img
-                src="/feature1.svg"
-                alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
-              />
-            </div>
-            <div className="max-w-[720px]">
-              <h3 className="mb-4 mt-6 text-2xl text-white  md:text-3xl">
-                Never miss any payment
-              </h3>
-              <p className="mb-6 max-w-[480px] text-white md:mb-10 lg:mb-12">
-                Say goodbye to payment headaches with SecurePay! Our easy-to-use
-                payment platform makes it simple for businesses and individuals
-                to send and receive payments quickly and securely.
-              </p>
-              <Button title="Learn More"/>
-            </div>
-          </div>
-        </div>
-        <div className="gr-2 absolute left-0   " />
 
-        <div className="mx-auto w-full max-w-7xl px-5 py-8 md:px-10 ">
-          <div className="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
-            <div className="max-w-[720px]">
-              <h3 className="mb-4 mt-6 text-2xl text-white  md:text-3xl">
-                Never miss any payment
-              </h3>
-              <p className="mb-6 max-w-[480px] text-white md:mb-10 lg:mb-12">
-                Say goodbye to payment headaches with SecurePay! Our easy-to-use
-                payment platform makes it simple for businesses and individuals
-                to send and receive payments quickly and securely.
-              </p>
-              <Button title="Learn More"/>
+      <div className="relative overflow-hidden  pb-32 pt-16">
+        <div className="py-16">
+          <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
+            <div className="">
+              <div className="  ">
+                <img
+                  className="w-full   "
+                  src="/images/f1.svg"
+                  alt="Inbox user interface"
+                />
+              </div>
             </div>
-            <div>
-              <img
-                src="/feature2.svg"
-                alt="Features Image"
-                className="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover"
-              />
+            <div className="w-[60%]  ">
+              <div>
+                <div className="">
+                  <h2 className="text-3xl font-bold tracking-tight text-white">
+                    Global Reach, Local Touch
+                  </h2>
+                  <p className="mt-4 text-lg text-gray-200">
+                    Our solutions have reached clients across the globe, yet we
+                    remain committed to providing personalized service and
+                    support. We understand the nuances of different markets and
+                    strive to deliver solutions that resonate locally.
+                  </p>
+                  <div className="mt-6">
+                    <a
+                      href="#"
+                      className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                    >
+                      Get started
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+        <div className="py-16">
+          <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
+            <div className="w-[60%]  ">
+              <div>
+                <div className="">
+                  <h2 className="text-3xl font-bold tracking-tight text-white">
+                  Diverse Industry Applications                  </h2>
+                  <p className="mt-4 text-lg text-gray-200">
+                  From corporate offices and retail spaces to educational institutions and entertainment venues, our digital signage solutions cater to a wide array of industries. We ensure that our products and services meet the specific needs of each sector, enhancing the overall experience for your audience.
+                  </p>
+                  <div className="mt-6">
+                    <a
+                      href="#"
+                      className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                    >
+                      Get started
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div className="  ">
+                <img
+                  className="w-full   "
+                  src="/images/f2.svg"
+                  alt="Inbox user interface"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="py-16">
+          <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
+            <div className="">
+              <div className="  ">
+                <img
+                  className="w-full   "
+                  src="/images/f3.svg"
+                  alt="Inbox user interface"
+                />
+              </div>
+            </div>
+            <div className="w-[60%]  ">
+              <div>
+                <div className="">
+                  <h2 className="text-3xl font-bold tracking-tight text-white">
+                  State-of-the-Art Technology
+                  </h2>
+                  <p className="mt-4 text-lg text-gray-200">
+                  At Delite Ace, we pride ourselves on staying ahead of the curve. Our solutions incorporate the latest in digital signage
+                  </p>
+                  <div className="mt-6">
+                    <a
+                      href="#"
+                      className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                    >
+                      Get started
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="py-16">
+          <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
+            <div className="w-[60%]  ">
+              <div>
+                <div className="">
+                  <h2 className="text-3xl font-bold tracking-tight text-white">
+                  Transforming Spaces, Delivering Impact                  </h2>
+                  <p className="mt-4 text-lg text-gray-200">
+                  Our digital signage solutions do more than just display content; they transform spaces and create experiences. Whether it’s a captivating LED display, an interactive kiosk, or a seamless video wall, our products are designed to leave a lasting impression.
+                  </p>
+                  <div className="mt-6">
+                    <a
+                      href="#"
+                      className="inline-flex rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+                    >
+                      Get started
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div className="  ">
+                <img
+                  className="w-full   "
+                  src="/images/f4.svg"
+                  alt="Inbox user interface"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
