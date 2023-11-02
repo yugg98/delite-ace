@@ -4,37 +4,40 @@ import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline"
 
 const faqs = [
     {
-      question: 'How do you make holy water?',
+      question: 'What Distinguishes Delite Ace in the Realm of Digital Signage?',
       answer:
-        'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+        'Delite Ace is recognized globally for providing innovative and impactful visual solutions, specifically designed to transform spaces and elevate communication. Our unwavering commitment to excellence ensures that we consistently deliver top-notch experiences and set the gold standard in the industry.        ',
     },
     {
-        question: 'How do you make holy water?',
+        question: 'How Can Delite Ace’s Digital Signage Solutions Propel My Business Forward?        ',
         answer:
-          'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+          'Our diverse array of products, including Interactive Displays, LED Video Walls, and Custom Solutions, is meticulously crafted to serve a variety of sectors, aiming to boost customer engagement, streamline communication, and ultimately, drive sales and enhance brand visibility.          ',
       },
       {
-        question: 'How do you make holy water?',
+        question: 'Are Products from Delite Ace Easy to Use?        ',
         answer:
-          'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+          'Yes, absolutely! We place a strong emphasis on user experience, ensuring that our products are straightforward to use, integrate seamlessly into various settings, and provide a smooth experience from installation to daily operations.',
       },
       {
-        question: 'How do you make holy water?',
+        question: 'Does Delite Ace Offer Support After the Sale?        ',
         answer:
-          'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+          'Certainly! We provide extensive support and maintenance services to guarantee the longevity and optimal performance of your digital signage solutions, helping you get the most out of your investment.',
       },
       {
-        question: 'How do you make holy water?',
+        question: 'Is It Possible to Customize Digital Signage Solutions with Delite Ace?',
         answer:
-          'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+          'Yes, it is! We excel in crafting tailor-made solutions that meet your specific needs, ensuring a perfect match for your unique space and requirements.',
       },
       {
-        question: 'How do you make holy water?',
+        question: 'How Can I Start My Journey with Delite Ace?',
         answer:
-          'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+          'Initiating your journey with us is a breeze! Simply reach out via our contact page, or give us a call, and our dedicated team will be ready to assist you, guiding you towards finding the ideal digital signage solution for your space.',
       },
-
-    // More questions...
+      {
+        question: 'Why Opt for Delite Ace for My Digital Signage Requirements?',
+        answer:
+          'Opting for Delite Ace means choosing a trusted partner in the digital signage realm, ensuring access to innovative solutions, unparalleled support, and a commitment to aiding you in creating memorable visual experiences',
+      },
   ]
   
   export default function Faqs() {
