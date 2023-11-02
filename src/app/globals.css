@@ -4,6 +4,7 @@
 
 body {
   background: #0a1021;
+  overflow-x:hidden;
 }
 
 .gr-1 {

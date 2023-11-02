@@ -23,7 +23,7 @@ function classNames(...classes: any) {
 
 export default function Example() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <main className="isolate">
         <div className="relative pt-14">
           <svg

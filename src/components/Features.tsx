@@ -5,22 +5,25 @@ const Features = () => {
   return (
     <div>
       <div className="gr-1 absolute" />
-      <div className="mx-auto max-w-3xl text-center">
-        <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
+      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        <div className="mx-auto max-w-3xl text-center">
+          <h1 className="text-4xl font-semibold  tracking-tight text-white sm:text-5xl">
           Our Features
-        </h1>
-        <p className="mt-6  max-w-2xl mx-auto  text-gray-200">
-          Transform your space with our state-of-the-art digital signage
-          solutions. Elevate communication, captivate audiences, and deliver
-          messages with impact.
-        </p>
-      </div>
+
+          </h1>
+          <p className="mt-6  max-w-2xl mx-auto  text-gray-200">
+          Transform your space with our state-of-the-art digital signage solutions. Elevate communication, captivate audiences, and deliver messages with impact.
+
+
+          </p>
+        </div>
+        </div>
 
       <div className="relative overflow-hidden  pb-32 pt-16">
         <div className="py-16">
           <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
             <div className="">
-              <div className="  ">
+            <div className="md:p-0 p-6  ">
                 <img
                   className="w-full   "
                   src="/images/f1.svg"
@@ -28,7 +31,7 @@ const Features = () => {
                 />
               </div>
             </div>
-            <div className="w-[60%]  ">
+            <div className="md:w-[60%] px-6 py-10 ">
               <div>
                 <div className="">
                   <h2 className="text-3xl font-bold tracking-tight text-white">
@@ -162,7 +165,7 @@ const Features = () => {
         </div>
         <div className="py-16">
           <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
-            <div className="w-[60%]  ">
+          <div className="md:w-[60%] px-6 py-10 ">
               <div>
                 <div className="">
                   <h2 className="text-3xl font-bold tracking-tight text-white">
@@ -182,7 +185,7 @@ const Features = () => {
               </div>
             </div>
             <div className="">
-              <div className="  ">
+            <div className="md:p-0 p-6  ">
                 <img
                   className="w-full   "
                   src="/images/f2.svg"
@@ -301,7 +304,7 @@ const Features = () => {
         <div className="py-16">
           <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
             <div className="">
-              <div className="  ">
+            <div className="md:p-0 p-6  ">
                 <img
                   className="w-full   "
                   src="/images/f3.svg"
@@ -309,7 +312,7 @@ const Features = () => {
                 />
               </div>
             </div>
-            <div className="w-[60%]  ">
+            <div className="md:w-[60%] px-6 py-10 ">
               <div>
                 <div className="">
                   <h2 className="text-3xl font-bold tracking-tight text-white">
@@ -439,7 +442,7 @@ const Features = () => {
         </div>
         <div className="py-16">
           <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
-            <div className="w-[60%]  ">
+          <div className="md:w-[60%] px-6 py-10 ">
               <div>
                 <div className="">
                   <h2 className="text-3xl font-bold tracking-tight text-white">
@@ -459,9 +462,9 @@ const Features = () => {
               </div>
             </div>
             <div className="">
-              <div className="  ">
+              <div className="md:p-0 p-6  ">
                 <img
-                  className="w-full   "
+                  className="w-full "
                   src="/images/f4.svg"
                   alt="Inbox user interface"
                 />
