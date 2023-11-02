@@ -23,9 +23,8 @@ function classNames(...classes: any) {
 
 export default function Example() {
   return (
-    <div className="overflow-x-hidden">
-      <main className="isolate">
-        <div className="relative pt-14">
+      <main className="overflow-x-hidden">
+        <div className="pt-14">
           <svg
             width="583"
             height="593"
@@ -132,7 +131,6 @@ export default function Example() {
               </linearGradient>
             </defs>
           </svg>
-
           <div className="py-24 sm:py-24">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-3xl  text-center">
@@ -253,6 +251,5 @@ export default function Example() {
         <Testimonials />
         <Cta/>
       </main>
-    </div>
   );
 }
