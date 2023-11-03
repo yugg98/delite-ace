@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className="absolute inset-x-0 top-0 z-50 px-8 mx-auto">
+      <header className="absolute inset-x-0 top-0 z-[200] px-8 mx-auto">
         <nav
           className="flex items-center justify-between py-4"
           aria-label="Global"
@@ -33,7 +33,7 @@ const Header = () => {
                 onClick={() => setMobileMenuOpen(true)}
               >
                 <span className="sr-only">Open main menu</span>
-                <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                <Bars3Icon className="h-6 w-6 text-white" aria-hidden="true"  />
               </button>
             </div>
           </div>
@@ -69,11 +69,7 @@ const Header = () => {
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="/logo.svg"
-                  alt=""
-                />
+                <img className="h-8 w-auto" src="/logo.svg" alt="" />
               </Link>
               <button
                 type="button"
@@ -91,7 +87,7 @@ const Header = () => {
                     <Link
                       key={item.name}
                       href={item.href}
-                      onClick={()=>setMobileMenuOpen(false)}
+                      onClick={() => setMobileMenuOpen(false)}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white "
                     >
                       {item.name}
@@ -102,11 +98,9 @@ const Header = () => {
                   <Button title="Contact us" styles="w-full" />
                   <Link
                     href="/contactus"
-                    onClick={()=>setMobileMenuOpen(false)}
+                    onClick={() => setMobileMenuOpen(false)}
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-200"
-                  >
-                    
-                  </Link>
+                  ></Link>
                 </div>
               </div>
             </div>
