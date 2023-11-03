@@ -30,7 +30,7 @@ const page = () => {
                     <Button title="Get Started"/>
                     </div>
                   </div>
-                  <div className="max-w-lg">
+                  <div className="max-w-lg md:mt-0 mt-10">
                     <HeroSlider />
                   </div>
                 </div>

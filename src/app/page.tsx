@@ -142,7 +142,7 @@ export default function Example() {
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <Link
-                    href="#"
+                    href="/contactus"
                     className="rounded-full cursor-pointer bg-white px-10 py-2.5 text-lg  font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Get started

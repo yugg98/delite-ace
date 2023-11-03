@@ -18,9 +18,9 @@ const Features = () => {
         </div>
       </div>
 
-      <div className=" pb-32 pt-16">
-        <div className="py-16">
-          <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
+      <div className=" pb-32 md:pt-16">
+        <div className="md:py-16">
+          <div className="mx-auto lg:flex md:gap-20 justify-center items-center max-w-7xl  ">
             <div className="">
               <div className="md:p-0 p-6  ">
                 <img
@@ -52,8 +52,8 @@ const Features = () => {
             <div className="gr-1 absolute" />
           </div>
         </div>
-        <div className="py-16">
-          <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
+        <div className="md:py-16">
+          <div className="mx-auto flex flex-wrap-reverse  md:gap-20 justify-center items-center max-w-7xl  ">
             <div className="md:w-[60%] px-6 py-10 ">
               <div>
                 <div className="">
@@ -86,8 +86,8 @@ const Features = () => {
           </div>
           <div className="gr-1 absolute left-0" />
         </div>
-        <div className="py-16">
-          <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
+        <div className="md:py-16">
+          <div className="mx-auto flex md:flex-row flex-row-reverse flex-wrap md:gap-20 justify-center items-center max-w-7xl  ">
             <div className="">
               <div className="md:p-0 p-6  ">
                 <img
@@ -119,9 +119,9 @@ const Features = () => {
           </div>
           <div className="gr-1 absolute" />
         </div>
-        <div className="py-16">
-          <div className="mx-auto lg:flex gap-20 justify-center items-center max-w-7xl  ">
-            <div className="md:w-[60%] px-6 py-10 ">
+        <div className="md:py-16">
+          <div className="mx-auto flex flex-wrap-reverse md:gap-20 justify-center items-center max-w-7xl  ">
+            <div className="md:w-[60%] px-6 md:py-10 ">
               <div>
               <div className="gr-1 absolute left-0" />
                 <div className="">
