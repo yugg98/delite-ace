@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Button from "./Button";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -22,9 +23,9 @@ const Header = () => {
           aria-label="Global"
         >
           <div className="flex flex-1 justify-between">
-            <a href="#" className="">
+            <Link href="/" className="">
               <img className="h-8 w-auto" src="/logo.svg" alt="" />
-            </a>
+            </Link>
             <div className="flex lg:hidden">
               <button
                 type="button"
@@ -98,11 +99,13 @@ const Header = () => {
                   ))}
                 </div>
                 <div className="py-6">
+                  <Button title="Contact us" styles="w-full" />
                   <Link
                     href="/contactus"
+                    onClick={()=>setMobileMenuOpen(false)}
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-200"
                   >
-                    Contact us
+                    
                   </Link>
                 </div>
               </div>
