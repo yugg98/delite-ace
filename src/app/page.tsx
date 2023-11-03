@@ -143,7 +143,7 @@ export default function Example() {
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <Link
                     href="/contactus"
-                    className="rounded-full cursor-pointer bg-white px-10 py-2.5 text-lg  font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-full sticky z-[100] cursor-pointer bg-white px-10 py-2.5 text-lg  font-semibold text-blue shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Get started
                   </Link>
