@@ -120,7 +120,7 @@ const Features = () => {
           <div className="gr-1 absolute" />
         </div>
         <div className="md:py-16">
-          <div className="mx-auto flex flex-wrap-reverse md:gap-20 justify-center items-center max-w-7xl  ">
+          <div className="mx-auto flex md:flex-nowrap flex-wrap-reverse md:gap-20 justify-center items-center max-w-7xl  ">
             <div className="md:w-[60%] px-6 md:py-10 ">
               <div>
               <div className="gr-1 absolute left-0" />
