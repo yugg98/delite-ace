@@ -5,12 +5,9 @@ import {
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
-import { Button, Input, Textarea } from "@nextui-org/react";
 import { useState } from "react";
-import { doc, setDoc } from "firebase/firestore";
-import { InformationCircleIcon } from "@heroicons/react/24/outline";
-import { db } from "@/utils/firebase";
 import { useRouter } from "next/navigation";
+import axios from "axios";
 export default function Contactus() {
   const [success, setSuccess] = useState(false);
   const router = useRouter();
@@ -40,18 +37,11 @@ export default function Contactus() {
       setError("");
       setSuccess(true);
       try {
-        let docname = data.email;
-        await setDoc(doc(db, "contacts", docname), data);
-        console.log("Data added successfully to Firestore!");
-        // Clear the form fields after submission
-        setData({
-          firstname: "",
-          email: "",
-          lastname: "",
-          phonenumber: "",
-          message:""
-        });
-        router.push("/");
+        axios.post('/api/send', data, {
+          headers: {
+            'Content-Type': 'application/json',
+          }
+        })
       } catch (error) {
         console.error("Error adding data to Firestore: ", error);
       }
@@ -66,9 +56,7 @@ export default function Contactus() {
               Get in touch
             </h2>
             <p className="mt-4 text-lg leading-8 text-white">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci
-              molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-              Arcu sed malesuada et magna.
+            Connect with Delite Ace for cutting-edge digital signage solutions. Email, call, or submit a query online. We're here to light up your business's potential. Let's talk!
             </p>
             <dl className="mt-8 space-y-4 text-base leading-7 text-white">
               <div className="flex gap-x-4">
@@ -80,9 +68,9 @@ export default function Contactus() {
                   />
                 </dt>
                 <dd>
-                  11B, first floor, Shahpur Jat,
-                  <br /> Near UCO Bank,
-                  <br /> South Delhi - 110049
+                 D - 4, Sec - 7
+                  <br />Ground Floor
+                  <br /> Noida
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -95,7 +83,7 @@ export default function Contactus() {
                 </dt>
                 <dd>
                   <a className="text-white" href="tel:+1 (555) 234-5678">
-                    +91 99104 55478
+                  +91 96502 07279
                   </a>
                 </dd>
               </div>
@@ -109,7 +97,7 @@ export default function Contactus() {
                 </dt>
                 <dd>
                   <a className="text-white" href="mailto:hello@example.com">
-                    contact@kaaresaccounting.com
+                    umang@deliteace.com
                   </a>
                 </dd>
               </div>
@@ -135,6 +123,7 @@ export default function Contactus() {
                         value={data.firstname}
                         className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="Yug"
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -154,6 +143,7 @@ export default function Contactus() {
                         value={data.lastname}
                         className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="Gupta"
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -174,6 +164,7 @@ export default function Contactus() {
                         value={data.email}
                         className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="name@company.com"
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -193,6 +184,7 @@ export default function Contactus() {
                         value={data.phonenumber}
                         className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="+919999999999"
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -209,9 +201,10 @@ export default function Contactus() {
                       <textarea
                         name="message"
                         id="email"
-                        value={data.firstname}
+                        value={data.message}
                         className="block w-full px-4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="Your Message here"
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
