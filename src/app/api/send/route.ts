@@ -6,21 +6,17 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 const resend = new Resend("re_8eGnTiwx_PTjCamDzDwb9GBFCbqAiTBuF");
 
 export async function POST(req: Request) {
-    console.log(req.body)
+  const {firstname,lastname,email,phonenumber,message} = await req.json()
   try {
-    // const data = await resend.emails.send({
-    //     from: 'Acme <onboarding@resend.dev>',
-    //     to: ['yugg9826@gmail.com'],
-    //     subject: 'New Request',
-    //     react: EmailTemplate({ firstname: req.body.firstname,lastname:req.body.lastname,email:req.body.email,phonenumber:req.body.phonenumber,message:req.body.message }),
-    // });
-    
-
-    return NextResponse.json(req.body);
-
+    const data = await resend.emails.send({
+        from: 'Acme <onboarding@resend.dev>',
+        to: ['yugg9826@gmail.com'],
+        subject: 'New Request',
+        react: EmailTemplate({ firstname: firstname,lastname:lastname,email:email,phonenumber:phonenumber,message:message }),
+    });
+    return NextResponse.json({ data });
   } catch (error) {
     console.log("hello")
     return NextResponse.json({ error });
   }
-
 }
