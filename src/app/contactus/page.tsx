@@ -56,7 +56,7 @@ export default function Contactus() {
               Get in touch
             </h2>
             <p className="mt-4 text-lg leading-8 text-white">
-            Connect with Delite Ace for cutting-edge digital signage solutions. Email, call, or submit a query online. We're here to light up your business's potential. Let's talk!
+            Connect with Delite Ace for cutting-edge digital signage solutions. Email, call, or submit a query online. We&apos;re here to light up your business&apos;s potential. Let&apos;s talk!
             </p>
             <dl className="mt-8 space-y-4 text-base leading-7 text-white">
               <div className="flex gap-x-4">
