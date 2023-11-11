@@ -78,7 +78,7 @@ const Features = () => {
               <div className="md:p-0 p-6  ">
                 <img
                   className="w-full   "
-                  src="/images/f2.svg"
+                  src="/images/f2.png"
                   alt="Inbox user interface"
                 />
               </div>
@@ -145,7 +145,7 @@ const Features = () => {
               <div className="md:p-0 p-6  ">
                 <img
                   className="w-full "
-                  src="/images/f4.svg"
+                  src="/images/f4.png"
                   alt="Inbox user interface"
                 />
               </div>
