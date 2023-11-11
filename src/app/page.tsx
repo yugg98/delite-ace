@@ -131,6 +131,7 @@ export default function Example() {
             </linearGradient>
           </defs>
         </svg>
+        <img src="/hero.svg" className="absolute left-[30%]"/>
         <div className="py-24 sm:py-24">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-3xl  text-center">
