@@ -3,7 +3,7 @@ import Cta from "./Cta";
 const products = [
   {
     id: 1,
-    name: "43\" DIGITAL SIGNAGE",
+    name: "Digital standee 32,43,50,55,65",
     href: "#",
     description: "5 sizes available",
     imageSrc:
@@ -13,7 +13,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Dual side display",
+    name: "Dual Side Display",
     href: "#",
     description: "5 sizes available",
     imageSrc:
@@ -21,39 +21,39 @@ const products = [
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
+  // {
+  //   id: 1,
+  //   name: "65\" DIGITAL SIGNAGE",
+  //   href: "#",
+  //   description: "5 sizes available",
+  //   imageSrc:
+  //     "/products/p3.svg",
+  //   imageAlt:
+  //     "Person using a pen to cross a task off a productivity paper card.",
+  // },
+  // {
+  //   id: 1,
+  //   name: "55\" DIGITAL SIGNAGE",
+  //   href: "#",
+  //   description: "3 sizes available",
+  //   imageSrc:
+  //     "/products/p4.svg",
+  //   imageAlt:
+  //     "Person using a pen to cross a task off a productivity paper card.",
+  // },
+  // {
+  //   id: 1,
+  //   name: "D shape touch kiosk",
+  //   href: "#",
+  //   description: "5 sizes available",
+  //   imageSrc:
+  //     "/products/p5.svg",
+  //   imageAlt:
+  //     "Person using a pen to cross a task off a productivity paper card.",
+  // },
   {
     id: 1,
-    name: "65\" DIGITAL SIGNAGE",
-    href: "#",
-    description: "5 sizes available",
-    imageSrc:
-      "/products/p3.svg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-  },
-  {
-    id: 1,
-    name: "55\" DIGITAL SIGNAGE",
-    href: "#",
-    description: "3 sizes available",
-    imageSrc:
-      "/products/p4.svg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-  },
-  {
-    id: 1,
-    name: "32\" DISPLAY ENCLOSURE",
-    href: "#",
-    description: "5 sizes available",
-    imageSrc:
-      "/products/p5.svg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
-  },
-  {
-    id: 1,
-    name: "32\" DIGITAL STANDEE",
+    name: "A Frame Standee",
     href: "#",
     description: "4 sizes available",
     imageSrc:
