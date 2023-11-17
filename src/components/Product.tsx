@@ -37,7 +37,7 @@ const products = [
     href: "#",
     description: "3 sizes available",
     imageSrc:
-      "/products/p4.jpeg",
+      "/products/tabletop.jpeg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
