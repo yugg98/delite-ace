@@ -21,36 +21,36 @@ const products = [
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
-  // {
-  //   id: 1,
-  //   name: "65\" DIGITAL SIGNAGE",
-  //   href: "#",
-  //   description: "5 sizes available",
-  //   imageSrc:
-  //     "/products/p3.svg",
-  //   imageAlt:
-  //     "Person using a pen to cross a task off a productivity paper card.",
-  // },
-  // {
-  //   id: 1,
-  //   name: "55\" DIGITAL SIGNAGE",
-  //   href: "#",
-  //   description: "3 sizes available",
-  //   imageSrc:
-  //     "/products/p4.svg",
-  //   imageAlt:
-  //     "Person using a pen to cross a task off a productivity paper card.",
-  // },
-  // {
-  //   id: 1,
-  //   name: "D shape touch kiosk",
-  //   href: "#",
-  //   description: "5 sizes available",
-  //   imageSrc:
-  //     "/products/p5.svg",
-  //   imageAlt:
-  //     "Person using a pen to cross a task off a productivity paper card.",
-  // },
+  {
+    id: 1,
+    name: "Pole Standee",
+    href: "#",
+    description: "5 sizes available",
+    imageSrc:
+      "/products/p2.jpeg",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
+  },
+  {
+    id: 1,
+    name: "Digital Table Top / Tent Card",
+    href: "#",
+    description: "3 sizes available",
+    imageSrc:
+      "/products/p4.jpeg",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
+  },
+  {
+    id: 1,
+    name: "Video Walls For Indoor/ Outdoor",
+    href: "#",
+    description: "5 sizes available",
+    imageSrc:
+      "/products/digital.jpeg",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
+  },
   {
     id: 1,
     name: "A Frame Standee",
