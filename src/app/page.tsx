@@ -16,6 +16,7 @@ import {
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import Cta from "@/components/Cta";
+import Marquee from "react-fast-marquee";
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
@@ -131,7 +132,7 @@ export default function Example() {
             </linearGradient>
           </defs>
         </svg>
-        <img src="/hero.svg" className="absolute left-[30%]"/>
+        <img src="/hero.svg" className="absolute left-[30%]" />
         <div className="py-24 sm:py-24">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-3xl  text-center">
@@ -208,46 +209,97 @@ export default function Example() {
         </div>
       </div>
 
-      {/* Logo cloud */}
-      {/* <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <h1 className="text-4xl text-center font-semibold  tracking-tight text-white sm:text-5xl">
+      Worldwide Collaborations
+        </h1>
+        <p className="mb-6 mt-2 text-center  max-w-2xl mx-auto  text-gray-200">
+          Showcasing diverse clients from every corner of the world.
+        </p>
+       
+        <div className="mx-auto  max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+          <Marquee pauseOnHover={true}>
             <img
-              className="col-span-2 invert max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
+              className="col-span-2 mx-4  max-h-24 w-full object-contain lg:col-span-1"
+              src="logo1.jpeg"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+
+            <img
+              className="col-span-2 mx-4  max-h-24 w-full object-contain lg:col-span-1"
+              src="logo2.jpeg"
               alt="Transistor"
               width={158}
               height={48}
             />
             <img
-              className="col-span-2 invert max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-              alt="Reform"
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo3.jpeg"
+              alt="Transistor"
               width={158}
               height={48}
             />
             <img
-              className="col-span-2 invert max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-              alt="Tuple"
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo4.jpeg"
+              alt="Transistor"
               width={158}
               height={48}
             />
             <img
-              className="col-span-2 invert max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-              alt="SavvyCal"
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo5.jpeg"
+              alt="Transistor"
               width={158}
               height={48}
             />
             <img
-              className="col-span-2 invert col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-              alt="Statamic"
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo6.jpeg"
+              alt="Transistor"
               width={158}
               height={48}
             />
-          </div>
-        </div> */}
+            <img
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo7.jpeg"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo8.jpeg"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo9.jpeg"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo10.jpeg"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 mx-4 max-h-16 w-full object-contain lg:col-span-1"
+              src="logo11.jpeg"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+          </Marquee>
+        </div>
+      </div>
 
       <Products />
       <Features />
