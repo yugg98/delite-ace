@@ -8,7 +8,7 @@ import localFont from "next/font/local";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Delite Ace',
+  title: 'DeliteAce',
   description: 'Transform your space with our state-of-the-art digital signage solutions. Elevate communication, captivate audiences, and deliver messages with impact.',
 }
 const mona = localFont({
