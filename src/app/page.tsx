@@ -140,7 +140,7 @@ export default function Example() {
                 Elevating spaces with elite signage.
               </h1>
               <p className="mt-6 text-lg  mx-auto leading-8 text-gray-200">
-                Delite Ace transforms spaces with unparalleled digital signage,
+                DeliteAce transforms spaces with unparalleled digital signage,
                 enhancing communication, captivating audiences, and ensuring
                 impactful, visually excellent experiences.
               </p>
