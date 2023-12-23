@@ -185,13 +185,13 @@ export default function Example() {
             }}
           >
              <SwiperSlide>
-              <img src="/v2.jpeg" className="w-xl mx-auto rounded-lg" />
+              <img src="/v2.jpeg" className="w-xl h-[300px] mx-auto rounded-lg" />
             </SwiperSlide>
              <SwiperSlide>
-              <img src="/v3.jpeg" className="w-xl mx-auto rounded-lg" />
+              <img src="/v3.jpeg" className="w-xl h-[300px] mx-auto rounded-lg" />
             </SwiperSlide>
              <SwiperSlide>
-              <img src="/v4.jpeg" className="w-xl mx-auto rounded-lg" />
+              <img src="/v4.jpeg" className="w-xl h-[300px] mx-auto rounded-lg" />
             </SwiperSlide>
 
             <SwiperSlide>
