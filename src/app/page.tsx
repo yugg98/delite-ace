@@ -184,6 +184,16 @@ export default function Example() {
               disableOnInteraction: false,
             }}
           >
+             <SwiperSlide>
+              <img src="/v2.jpeg" className="w-xl mx-auto rounded-lg" />
+            </SwiperSlide>
+             <SwiperSlide>
+              <img src="/v3.jpeg" className="w-xl mx-auto rounded-lg" />
+            </SwiperSlide>
+             <SwiperSlide>
+              <img src="/v4.jpeg" className="w-xl mx-auto rounded-lg" />
+            </SwiperSlide>
+
             <SwiperSlide>
               <img src="/images/img1.svg" className="w-xl mx-auto rounded-lg" />
             </SwiperSlide>
