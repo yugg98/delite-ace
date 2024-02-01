@@ -68,9 +68,9 @@ export default function Contactus() {
                   />
                 </dt>
                 <dd>
-                 D - 4, Sec - 7
+                E-81, sec-63,
                   <br />Ground Floor
-                  <br /> Noida
+                  <br /> Noida 201301
                 </dd>
               </div>
               <div className="flex gap-x-4">
