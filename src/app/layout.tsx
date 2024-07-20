@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'DeliteAce',
   description: 'Transform your space with our state-of-the-art digital signage solutions. Elevate communication, captivate audiences, and deliver messages with impact.',
+  verification: {
+    google: "G-H1XGRNBTDH",
+  },
 }
 const mona = localFont({
   src: "../fonts/monasans.ttf",
