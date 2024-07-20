@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'DeliteAce',
   description: 'Transform your space with our state-of-the-art digital signage solutions. Elevate communication, captivate audiences, and deliver messages with impact.',
   verification: {
-    google: "G-H1XGRNBTDH",
+    google: "aSscFtQsc701IZfXyqQcw9LHdaorwvUa3-1vVz7hXNk",
   },
 }
 const mona = localFont({
